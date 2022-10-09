@@ -1,0 +1,12 @@
+@charset"utf-8";
+.section_inner{
+    padding: 50px 10% 30px;
+}
+.key{
+    padding: 30px 10% 50px;
+    height: 500px;
+    background: url(../images/sample_key.jpg)center/ cover no-repeat;
+    font-family:'Sawarabi Gothic',serif;
+    font-weight: bold;
+      
+}
