@@ -7,49 +7,9 @@ body{
     padding-bottom: 75px;
     min-height: 100%;
 }
-.section_inner{
-    padding: 50px 10% 30px;
-}
-.sunny{
-    display: flex;
-
-}
-.key{
-    padding: 30px 10% 50px;
-    height: 500px;
-    background: url(../images/sample_key.jpg)center/ cover no-repeat;
-    font-family:'Sawarabi Gothic',serif;
-    font-weight: bold;
-      
-}
-.key h1{
-    font-size: 2.5rem;
-}
-.section_title{
-    text-align: center;
-    font-family: 'Sawarabi Gothic', serif;
-    font-weight: bold;
-    margin-bottom: 50px;
-    
-}
-.menu_title{
-    font-family:'Sawarabi Gothic',serif;
-    text-align: center;
-    color: #42210b;
-    border-bottom: solid #42210b 1px;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    
-}
-.center{
-    text-align: center;
-}
-.coffee_menu_image{
-    width: 20%;
-    border-radius: 50%;
-}
+/* header navigation*/
 .header_nav{
-    background: rgba(0,0,0,.6);
+    background:linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
     display: flex;
     height: 60px;
     justify-content: space-between;
@@ -58,7 +18,79 @@ body{
     top: 0;
     width: 100%; 
 }
-
+/*menu background img */
+.section_inner{
+    padding: 50px 10% 30px;
+}
+/*dic 文章*/
+.section_inner_sunny{
+    display: flex;
+    font-size: 60%;
+    text-align:justify;
+}
+/*div concept img */
+.concept{
+    float: right;
+    width: 35%px;
+    display: block;
+    height: 100px;
+   
+}
+/*dic header & background img */
+.dic_header{
+    padding: 30px 10% 50px;
+    height: 500px;
+    background: url(../images/sample_key.jpg)center/ cover no-repeat;
+    font-family:'Sawarabi Gothic',serif;
+    font-weight: bold;
+      
+}
+.dic_header h1{
+    font-size:2.5em;
+    
+}
+/* concept header & sub*/
+.section_title{
+    text-align: center;
+    font-family: 'Sawarabi Gothic', serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+li{
+    list-style: none;
+}
+p,ul{
+    margin: 0;
+    padding: 0;
+}
+div,li{
+    box-sizing: border-box;
+}
+.menu_img{
+    background-image: url(../images/sample_menu_bg.jpg);
+}
+/*recommend menu */
+.menu_title{
+    font-family:'Sawarabi Gothic',serif;
+    text-align: center;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+.coffee_menu_image{
+    width: 20%;
+    border-radius: 50%;
+}
+.coffee_menu_content{
+    width: 80%;
+    padding: 10px;
+}
+/*navigation*/
 .nav_item{
     color: #fff;
     text-decoration: none;
@@ -83,13 +115,6 @@ body{
 .logo img{
     width: 100%;
 }
-.concept{
-    float: right;
-    width: 150px;
-    display: block;
-    height: 150px;
-   
-}
 .footer_nav{
     display: flex;
     justify-content: center;
@@ -112,6 +137,9 @@ footer{
 .recommend_menu{
     display: flex;
 }
-.recommend_menu_container{
+.recommend_menu_amend{
     display: flex;
+}
+.section_access{
+    width: 80px;
 }
