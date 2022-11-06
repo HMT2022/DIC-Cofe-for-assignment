@@ -55,3 +55,22 @@
   .reset_btn {
     background: #e6e6e6;
   }
+  .footer_nav{
+    display: flex;
+    justify-content: center;
+}
+.footer_nav_item{
+    margin: 10px;
+    color: #fff;
+}
+footer{
+    background-color: #251e19;
+    height: 75px;
+}
+.footer_logo{
+    width: 80px;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+}
