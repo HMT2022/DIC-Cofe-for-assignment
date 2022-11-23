@@ -79,8 +79,9 @@ div,li{
 .recommend_menu {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
-  .recommend_menu li {
+  .recommend_menu>li {
     width: 49%;
     height: 240px;
     display: flex;
